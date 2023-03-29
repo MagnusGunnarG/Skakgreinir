@@ -1,0 +1,10 @@
+Skák tilfinningagreining:
+- tekur inn stöðu og stöðuna á undan og gefur tilfinningagildi á move-inu
+	- t.d. ánægður, leiður, reiður, neutral, stressaður
+
+
+Skák sigurvegari:
+- Tekur inn stöðu, eval, elo, númer síðasta leiks,... 
+- Spáir fyrir um sigurlíkur
+- hvernig skákin endaði notað til að þjáfa
+- Bara nota fyrir hvítann?

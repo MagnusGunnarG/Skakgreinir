@@ -1,0 +1,7 @@
+traina með einhverjum gögnum, t.d. hluti af mánaðarlegu lichess safni með eval
+nota t.d. csv með 1.000.000 röðum og 2 dálkum þar sem hver röð er ein staða og dálkar eru FEN og eval
+
+Ferli:
+-gefa inn einhverja stöðu t.d. af command línu með FEN hætti
+-nota chess pakka til að finna leyfilegar aðgerðir fyrir stöðuna
+-láta forrit finna eval fyrir allar leyfilegar aðgerðir og skila því besta
