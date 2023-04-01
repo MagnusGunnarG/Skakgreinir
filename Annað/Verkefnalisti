@@ -1,3 +1,9 @@
 1. Tók gögnin úr games.csv
 2. Eyddi gögnum sem ég nota ekki
 3. Breyti leikjaformati úr (d4 d5...) í bitmap og bætum við númeri leiks
+
+
+
+
+Annað:
+-Tók 493 min að greina með stockfish 15, threads 10, depht 10, minimum thinking time 0, hash 32
