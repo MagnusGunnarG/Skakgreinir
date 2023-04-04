@@ -3,3 +3,11 @@ Skák sigurvegari:
 - Spáir fyrir um sigurlíkur
 - hvernig skákin endaði notað til að þjáfa
 - Bara nota fyrir hvítann?
+
+
+Spurningar:
+- Hvernig á að velja stærð á neti?
+- Þarf sitt hvort netið fyrir svartann og hvítann, hvernig er það annars þjálfað?
+	-> Ef við þjálfum fyrir hvítann með svörtum gögnum hvað gerist?
+- Er Github Copilot heilmild?
+- Samanburðarmódel?

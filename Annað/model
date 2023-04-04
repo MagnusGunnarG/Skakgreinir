@@ -1,0 +1,9 @@
+Módel 1:
+- n_hid1, n_hid2 = 50, 50
+- The model has 41,353 trainable parameters
+- learning_rate = 0.001
+
+Módel 2:
+- n_hid1, n_hid2, n_hid3 = 100, 100, 100
+- The model has 41,353 trainable parameters
+- learning_rate = 0.001
