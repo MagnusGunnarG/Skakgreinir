@@ -37,5 +37,19 @@ Módel 5:
 - Tók 80min að þjálfa
 
 Bara Stockfish:
-- Gefur sigur ef eval>0
+- Gefur sigur fyrir hvítan ef eval>0
 - Gefur 0.6582 nákvæmni
+
+Módel 5:
+- n_hid1, n_hid2, n_hid3 = 2000, 1000, 500
+- SELU
+- The model has 4,049,003 trainable parameters
+- learning_rate = 0.00001
+- Fyrir 1000 ítranir og 151274 leiki fæst:
+	Epoch 1000/1000, Training Loss: 0.6939, Test Loss: 0.7340, Test Accuracy: 0.8143, Training Accuracy: 0.8623
+- Tók 40min að þjálfa
+
+
+
+
+
