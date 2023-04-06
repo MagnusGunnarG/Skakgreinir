@@ -5,5 +5,37 @@ Módel 1:
 
 Módel 2:
 - n_hid1, n_hid2, n_hid3 = 100, 100, 100
-- The model has 41,353 trainable parameters
+- The model has 41,353 trainable parameters ????????????
 - learning_rate = 0.001
+
+Módel 3:
+- n_hid1, n_hid2, n_hid3, n_hid4 = 5000, 3000, 2000, 1000
+- SELU
+- The model has 26,874,003 trainable parameters
+- learning_rate = 0.00001
+- Fyrir 100 ítranir og 100836 leiki fæst 0.7091 test nákvæmni, 0.8326 og 0.8324 training og test loss
+- Fyrir 100 ítranir og 151274 leiki fæst 0.7158 test nákvæmni, 0.8265 og 0.8246 training og test loss
+- Fyrir 1000 ítranir og 151274 leiki fæst 0.8131 test nákvæmni, 0.6894 og 0.7354 training og test loss
+- Tók 160min að þjálfa
+
+Módel 4: Nýtt samanburaðarmódel
+- n_hid1, n_hid2 = 50, 50
+- SELU
+- The model has 41,353 trainable parameters
+- learning_rate = 0.00001
+- Fyrir 1000 ítranir og 151274 leiki fæst:
+	Epoch 998/1000, Training Loss: 0.7970, Test Loss: 0.8121, Test Accuracy: 0.7310, Training Accuracy: 0.7525
+- Tók 16min að þjálfa
+
+Módel 5:
+- n_hid1, n_hid2, n_hid3, n_hid4 = 3000, 2000, 1000, 500
+- SELU
+- The model has 10,824,003 trainable parameters
+- learning_rate = 0.00001
+- Fyrir 1000 ítranir og 151274 leiki fæst:
+	Epoch 998/1000, Training Loss: 0.6862, Test Loss: 0.7304, Test Accuracy: 0.8173, Training Accuracy: 0.8691
+- Tók 80min að þjálfa
+
+Bara Stockfish:
+- Gefur sigur ef eval>0
+- Gefur 0.6582 nákvæmni
