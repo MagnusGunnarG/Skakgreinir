@@ -40,7 +40,7 @@ Bara Stockfish:
 - Gefur sigur fyrir hvítan ef eval>0
 - Gefur 0.6582 nákvæmni
 
-Módel 5:
+Módel 6:
 - n_hid1, n_hid2, n_hid3 = 2000, 1000, 500
 - SELU
 - The model has 4,049,003 trainable parameters
@@ -49,7 +49,23 @@ Módel 5:
 	Epoch 1000/1000, Training Loss: 0.6939, Test Loss: 0.7340, Test Accuracy: 0.8143, Training Accuracy: 0.8623
 - Tók 40min að þjálfa
 
+Módel 7:
+- n_hid1, n_hid2, n_hid3 = 1000, 750, 500
+- SELU
+- The model has 1,900,753 trainable parameters
+- learning_rate = 0.00001
+- Fyrir 1000 ítranir og 151274 leiki fæst:
+	Epoch 998/1000, Training Loss: 0.7017, Test Loss: 0.7452, Test Accuracy: 0.8011, Training Accuracy: 0.8506
+- Tók 26min að þjálfa
 
+Módel 8: Eitt lag
+- n_hid1 = 100
+- SELU
+- The model has 77,603 trainable parameters
+- learning_rate = 0.00001
+- Fyrir 1000 ítranir og 151274 leiki fæst:
+	Epoch 998/1000, Training Loss: 0.8039, Test Loss: 0.8135, Test Accuracy: 0.7292, Training Accuracy: 0.7445
+- Tók 16min að þjálfa
 
 
 
